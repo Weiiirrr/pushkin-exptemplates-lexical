@@ -1,8 +1,8 @@
 import jsPsych from 'pushkin-jspsych';
-const stimArray = require('./stim').default;
-const debrief = require('./debrief').default;
-const consent = require('./consent').default;
-const experimentConfig = require('./config').default;
+const stimArray = require('./stim').default; // common js import instead of ES6 import
+const debrief = require('./debrief').default; // common js import instead of ES6 import
+const consent = require('./consent').default; // common js import instead of ES6 import
+const experimentConfig = require('./config').default; // common js import instead of ES6 import
 
 const timeline = []
 
